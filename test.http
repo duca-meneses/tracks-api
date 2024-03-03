@@ -1,0 +1,22 @@
+POST http://localhost:8000/api/tracks HTTP/1.1
+content-type: application/json
+
+{
+    "artist": "Sonic Youth",
+    "title": "Silver Rocket",
+    "last_play": "2017-10-18 15:15:26",
+    "duration": 200
+}
+
+###
+PUT http://localhost:8000/api/tracks/1 HTTP/1.1
+content-type: application/json
+
+{
+    "artist": "Free",
+    "title": "Led Zeppelin",
+    "last_play": "2018-05-17T16:56:21Z",
+    "duration": 220.8
+}
+###
+DELETE http://localhost:8000/api/tracks/1 HTTP/1.1 
