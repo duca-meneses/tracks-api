@@ -7,5 +7,12 @@ class TrackSchema(Schema):
     duration: float
     last_play: datetime
 
+
+class TrackSchemaResponse(TrackSchema):
+    id: int
+
 class NotFoundSchema(Schema):
     message: str
+
+class DeleteResponseSchema(NotFoundSchema):
+    ...
