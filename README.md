@@ -76,6 +76,14 @@ How to start your project
 cd tracks_api
 ```
 
+To create the track database, run this command
+
+```bash
+python manage.py ingest_tracks
+```
+
+To start up the django server
+
 ```bash
 python manage.py runserver
 ```
