@@ -105,7 +105,7 @@ Here you can list the main routes of your API, and what are their expected reque
     "last_play": "2017-10-18 15:15:26",
     "duration": 200  
   },
-  ...
+  
 ] 
 ```
 
